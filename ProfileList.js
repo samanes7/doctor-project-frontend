@@ -3,9 +3,9 @@ import ProfileCard from './ProfileCard';
 
 const ProfileList = () => {
   const [profiles, setProfiles] = useState([
-    { id: 1, name: 'Dr. John Doe', likes: 5, comments: [] },
-    { id: 2, name: 'Dr. Jane Smith', likes: 8, comments: [] },
-    { id: 3, name: 'Dr. Alice Johnson', likes: 3, comments: [] },
+    { id: 1, name: 'Dr. Panahi', likes: 5, comments: [] },
+    { id: 2, name: 'Dr. Soltani', likes: 8, comments: [] },
+    { id: 3, name: 'Dr. Sadeghi', likes: 3, comments: [] },
   ]);
 
   const sortAsc = () => {
